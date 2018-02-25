@@ -4,7 +4,18 @@
 
 # Как использовать
 
-Импортировать модуль quadratic_equation, использовать функцию get_roots? передав ей три аргумента квадартичного уравнения.
+```python
+from quadratic_equation import get_roots
+...
+root1, root2 = get_roots(value_a, value_b, value_c)
+```
+или
+```python
+import quadratic_equation
+...
+root1, root2 = quadratic_equation.get_roots(value_a, value_b, value_c)
+```
+где value_a, value_b, value_c - главный, средний и свободный коэффициенты квадратного уравнения.
 
 # Как запустить
 
